@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="menuv2.css">
+	<link rel="stylesheet" href="sedanSide.css">
+	<link rel="stylesheet" href="sedan.css">
+	<div class="nav">
+		<ul>
+			<li><a href="homev2.html">Home</a></li>
+			<li><a href="SUVv2.html">SUV</a></li>
+			<li><a href="sedanv2.html">Sedan</a></li>
+			<li><a href="#">Truck</a></li>
+		</ul>
+	</div>
+	<div id="sedanSidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times;</a>
+		<a href="BMWengineSpecs.html">ENGINE SPECS</a>
+		<a href="BMWtransmissionSpecs.html">TRANSMISSION SPECS</a>
+		<a href="BMWperformanceSpecs.html">PERFORMANCE</a>
+		<a href="BMWfuelConsumption.html">FUEL CONSUMPTION</a>
+		<a href="BMWwheels.tires.html">WHEELS & TIRES</a>
+		<a href="BMWdimensions.html">DIMENSIONS</a>
+</div>
+</head>
+<body>
+	<h1>Sedan</h1>
+	<center>
+	<img class="img-responsive center-block" src="BMW2.jpg" alt="BMW">
+	<h2>Basic Information</h2>
+		<li>Make: BMW</li>
+		<li>Model: M340i xDrive Sedan</li>
+		<li>Color: Black Sapphire Metallic</li>
+		<li>Starting MSRP: $56,000</li>
+	</center>
+	
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; More Info</span>
+
+<script>
+function openNav() {
+  document.getElementById("sedanSidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("sedanSidenav").style.width = "0";
+}
+</script>	
+	
+	
+	
+	
+</body>
+</html>

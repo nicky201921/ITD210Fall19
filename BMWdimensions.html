@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="menuv2.css">
+	<link rel="stylesheet" href="sedanSide.css">
+	<link rel="stylesheet" href="sedan.css">
+	<div class="nav">
+		<ul>
+			<li><a href="homev2.html">Home</a></li>
+			<li><a href="SUVv2.html">SUV</a></li>
+			<li><a href="sedanv2.html">Sedan</a></li>
+			<li><a href="#">Truck</a></li>
+		</ul>
+	</div>
+	<div id="sedanSidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="BMWengineSpecs.html">ENGINE SPECS</a>
+		<a href="BMWtransmissionSpecs.html">TRANSMISSION SPECS</a>
+		<a href="BMWperformanceSpecs.html"> PERFORMANCE</a>
+		<a href="BMWfuelConsumption.html"> FUEL CONSUMPTION</a>
+		<a href="BMWwheels.tires.html"> WHEELS & TIRES</a>
+		<a href="BMWdimensions.html"> DIMENSIONS</a>
+	</div>
+</head>
+<body>
+	<h1>Sedan</h1>
+	<center><img class="img-responsive center-block" src="BMW2.jpg" alt="BMW">
+	<h2>Exterior Dimensions</h2>
+
+			<li>Length / Width / Height (in): 185.7/71.9/56.7</li>
+			<li>Curb weight (automatic transmission (lbs)): 3968</li>
+			<li>Weight distribution , front/rear (automatic transmission (%): 52.6/47.4</li>
+
+	<h2>Interior Dimensions</h2>
+
+			<li>Headroom, front/rear(in): 38.7/37.6</li>
+			<li>Legroom, front/rear(in): 42.0/35.2</li>
+			<li>Shoulder room, front/rear(in): 56.0/54.6</li>
+	</center>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; More Info</span>
+<script>
+function openNav()
+{
+	document.getElementById("sedanSidenav").style.width = "250px";
+}
+
+function closeNav()
+{
+	document.getElementById("sedanSidenav").style.width = "0";
+}
+
+</script>
+</body>
+</html>

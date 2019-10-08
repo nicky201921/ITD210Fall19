@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="menuv2.css">
+	<link href="suvsidev2.css" rel="stylesheet" >
+	<div class="nav">
+		<ul>
+			<li><a href="homev2.html">Home</a></li>
+			<li><a href="SUVv2.html">SUV</a></li>
+			<li><a href="sedanv2.html">Sedan</a></li>
+			<li><a href="#">Truck</a></li>
+			
+		</ul>
+	</div>
+</head>
+<body>
+	<h1>SUV </h1>
+	<center><img src="suv.jpg" alt="Trail Blazer SS"></center>
+	<div id="suvSidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">ENGINE SPECS</a>
+  <a href="#">PERFORMANCE SPECS</a>
+  <a href="#">FUEL ECONOMY SPECS</a>
+  <a href="#">TRANSMISSION SPECS</a>
+  <a href="#">BRAKES SPECS</a>
+  <a href="#">TIRES SPECS</a>
+  <a href="#">DIMENSIONS</a>
+  <a href="#">WEIGHT SPECS</a>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; More Info</span>
+
+<script>
+function openNav() {
+  document.getElementById("suvSidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("suvSidenav").style.width = "0";
+}
+</script>	
+</body>
+</html>
+
